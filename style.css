@@ -1,0 +1,63 @@
+/* Sets the font family and size of the timer */
+
+.timer {
+    Font-family: "Orbitron", sans-serif;
+    Font-size: 3em;
+    Text-align: center;
+}
+
+
+/* Sets the color of the timer according to the time left */
+
+.timer {
+    color: green;
+}
+
+.timer[data-time-left^="0s"] {
+    color: red;
+}
+
+.timer[data-time-left^="1s"],
+.timer[data-time-left^="2s"],
+.timer[data-time-left^="3s"] {
+    color: yellow;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border: 5px solid #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(214, 84, 214);
+}
+
+.deadline,
+.prize {
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    background-color: powderblue;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 15px;
+    text-shadow: 5px 5px 10px black;
+}
